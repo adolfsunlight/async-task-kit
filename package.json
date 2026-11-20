@@ -1,0 +1,35 @@
+{
+  "name": "async-task-kit",
+  "version": "1.0.0",
+  "description": "Zero-dependency async control utilities: concurrency limiting, retry with exponential backoff, rate limiting, timeout and memoization.",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "example": "node examples/basic.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "async",
+    "concurrency",
+    "retry",
+    "backoff",
+    "rate-limit",
+    "timeout",
+    "memoize",
+    "zero-dependency"
+  ],
+  "license": "MIT"
+}
